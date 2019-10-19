@@ -1,6 +1,6 @@
 ### Top Level ###
 .idea
-zpr-finances.*
+zpr-finances.iml
 node_modules
 .DS_Store
 dist
