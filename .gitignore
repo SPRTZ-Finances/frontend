@@ -1,0 +1,8 @@
+### Top Level ###
+.idea
+zpr-finances.*
+node_modules
+.DS_Store
+dist
+workspace.xml
+.babelrc
