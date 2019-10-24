@@ -22,11 +22,11 @@ class App extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:8080/expenses')
-            .then(res  => {
-                const expenses = res.data;
-                this.setState({expenses})
-            })
+        // axios.get('http://localhost:8080/expenses')
+        //     .then(res  => {
+        //         const expenses = res.data;
+        //         this.setState({expenses})
+        //     })
     }
 
     onFormSubmit() {
