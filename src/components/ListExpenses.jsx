@@ -14,10 +14,10 @@ class ListExpenses extends  Component {
     }
 
     componentDidMount() {
-       ApiLib.getExpenses().then(value => {
-           const expenses = value.data
-           this.setState({expenses})
-       })
+       // ApiLib.getExpenses().then(value => {
+       //     const expenses = value.data
+       //     this.setState({expenses})
+       // })
     }
 
     render() {
