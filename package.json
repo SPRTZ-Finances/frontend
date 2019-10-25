@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +23,8 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.2",
